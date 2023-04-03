@@ -2,12 +2,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-
+import Top from "../components/home"
+import Bar from "../components/bar"
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <>
+    <div className='overflow-x-hidden'>
       <Head>
         <title>Zakaria</title>
         <meta name="description" content="your local tech nerd" />
@@ -15,8 +16,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-      <h1 className='mt-20 text-center text-9xl fontbold'>Working on this !</h1>
+        <Top/>
+        <Bar/>
       </main>
-    </>
+    </div>
   )
 }
