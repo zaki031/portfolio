@@ -8,7 +8,7 @@ const about = () => {
   I’m obsessed with making cool things  on the net,
 interested in machine learning and web development and I’m starving to learn new stuff! <br />
 I'm confident in my ability to create high-quality 
-web applications.
+web applications. <br />
 
   </p>
     </div>
