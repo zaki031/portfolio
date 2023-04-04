@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import  {FaInstagram,FaGithub,FaLinkedin} from 'react-icons/fa'
+import  {FaInstagram,FaGithub,FaLinkedin,FaTwitter} from 'react-icons/fa'
 import mail from '../public/mail.png'
 const contact = () => {
   return (
@@ -18,18 +18,19 @@ const contact = () => {
                 <div className="flex justify-between p-4">
                 <p className=' text-[#E9E6D5]'>m.zakariahamoudi@gmail.com</p>
 <div className="flex gap-5">
-                    <FaLinkedin className='text-[#E9E6D5] text-2xl'/>
-                    <FaGithub className='text-[#E9E6D5] text-2xl'/>
-                    <FaInstagram className='text-[#E9E6D5] text-2xl'/>
+                    <a href="https://www.linkedin.com/in/zakaria-hamoudi-270306243/"><FaLinkedin className='text-[#E9E6D5] text-2xl'/></a>
+                    <a href="https://github.com/zaki031"><FaGithub className='text-[#E9E6D5] text-2xl'/></a>
+                    <a href="https://twitter.com/hamoudi_zaki31"><FaTwitter className='text-[#E9E6D5] text-2xl'/></a>
+                    <a href="https://www.instagram.com/zaki.owo1/"><FaInstagram className='text-[#E9E6D5] text-2xl'/></a>
                 </div>
                 </div>
                 
             </div>
             <form action="" className=''>
-                <input type="text" className='bg-transparent border-2 rounded-md w-[400px] border-[#E9E6D5] p-3' placeholder='Your Name' /><br />
-                <input type="email" className='bg-transparent border-2 rounded-md w-[400px] border-[#E9E6D5] mt-[20px] p-3' placeholder='Your Email' /><br />
-                <textarea name="" className='bg-transparent border-2 rounded-md w-[400px] border-[#E9E6D5] p-3 mt-[20px]' id="" cols="35" rows="10" placeholder="How can i help you ?" required></textarea><br />
-                <button type='submit' className='bg-[#E9E6D5] p-2 px-4 rounded-md '>Send!</button>
+                <input type="text" className='bg-transparent border-2 text-[#E9E6D5] rounded-md w-[400px] border-[#E9E6D5] p-3' placeholder='Your Name' /><br />
+                <input type="email" className='bg-transparent border-2 text-[#E9E6D5] rounded-md w-[400px] border-[#E9E6D5] mt-[20px] p-3' placeholder='Your Email' /><br />
+                <textarea name="" className='bg-transparent border-2 text-[#E9E6D5] rounded-md w-[400px] border-[#E9E6D5] p-3 mt-[20px]' id="" cols="35" rows="10" placeholder="How can i help you ?" required></textarea><br />
+                <button type='submit' className='bg-[#E9E6D5] p-2 w-[400px] px-4 rounded-md '>Send!</button>
             </form>
         </div>
     </div>

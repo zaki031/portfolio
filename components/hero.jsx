@@ -3,6 +3,7 @@ import Image from 'next/image'
 import pic from '../public/pic.png'
 import code from '../public/code.png'
 import laptop from '../public/laptop.png'
+import  {FaInstagram,FaGithub,FaLinkedin,FaTwitter} from 'react-icons/fa'
 
 
 const hero = () => {
@@ -91,6 +92,12 @@ const hero = () => {
         <div className="txt my-auto text-[#E9E6D5]">
             <h3 className='relative left-3'>Hi I'm</h3>
             <h1 className='font-bold text-8xl z-[2]'>Hamoudi <br /> mohammed <br />Zakaria</h1>
+<div className="flex justify-end gap-5">
+<a href="https://www.linkedin.com/in/zakaria-hamoudi-270306243/"><FaLinkedin className='text-[#E9E6D5] text-2xl'/></a>
+                    <a href="https://github.com/zaki031"><FaGithub className='text-[#E9E6D5] text-2xl'/></a>
+                    <a href="https://twitter.com/hamoudi_zaki31"><FaTwitter className='text-[#E9E6D5] text-2xl'/></a>
+                    <a href="https://www.instagram.com/zaki.owo1/"><FaInstagram className='text-[#E9E6D5] text-2xl'/></a>
+                </div>
         </div>
         <Image src={code} alt='code' className='absolute right-2 rotate-[20deg]  z-[-11]' width={200} height={200}></Image>
         <Image src={laptop} alt='laptop' className='absolute top-[600px] left-2 rotate-[20deg]  z-[-11]' width={200} height={200}></Image>
