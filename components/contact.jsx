@@ -1,8 +1,11 @@
 import React from 'react'
+import Image from 'next/image'
 import  {FaInstagram,FaGithub,FaLinkedin} from 'react-icons/fa'
+import mail from '../public/mail.png'
 const contact = () => {
   return (
     <div className='mt-[50px] py-5'>
+        <Image src={mail} className='relative top-[180px] left-[310px] rotate-[25deg] z-[10]' width={100} height={300}></Image>
         <div className="flex justify-between">
             <div className="p-4 my-auto">
                         <h1 className='text-5xl text-[#E9E6D5] font-bold mb-[50px]'>Contact me</h1>
