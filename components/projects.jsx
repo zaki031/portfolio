@@ -10,7 +10,7 @@ const projects = () => {
         <h1 className='text-4xl text-[#E9E6D5]'>Things I made</h1>
 
         <div className="grid grid-cols-1 gap-4 p-3 grid-cols-rows-3">
-            <div className="bg-[#58555491]  p-4 rounded-md">
+            <div className="bg-[#58555491] duration-300 ease-out  shadow-md hover:-translate-y-1   p-4 rounded-md">
                 <div className="flex text-[#E9E6D5] text-3xl justify-between">
                 <h1 className='font-bold '>SkillUp </h1>
                 <div className="flex gap-5">
@@ -25,7 +25,7 @@ const projects = () => {
                     <div className="bg-[#E9E6D5] px-2 rounded-md ">Next Js</div>
                 </div>
             </div>
-            <div className="bg-[#58555491] p-4 rounded-md">
+            <div className="bg-[#58555491]  duration-300 ease-out  shadow-md hover:-translate-y-1 p-4 rounded-md">
                 <div className="flex text-[#E9E6D5] text-3xl justify-between">
                 <h1 className='font-bold '>7sky's restaurant </h1>
                 <div className="flex gap-5">
@@ -42,7 +42,7 @@ const projects = () => {
 
                 </div>
             </div>
-            <div className="bg-[#58555491]  p-4 rounded-md">
+            <div className="bg-[#58555491]  duration-300 ease-out  shadow-md hover:-translate-y-1  p-4 rounded-md">
                 <div className="flex text-[#E9E6D5] text-3xl justify-between">
                 <h1 className='font-bold '>Cryptito </h1>
                 <div className="flex gap-5">

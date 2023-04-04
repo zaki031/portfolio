@@ -4,44 +4,44 @@ const tech = () => {
   return (
     <div className='mt-[50px]'>
         <h1 className='text-4xl text-[#E9E6D5]'>Tech I use</h1>
-        <div class="grid grid-cols-4 grid-rows-2 gap-4 p-3">
-  <div class="bg-[#58555491] text-white text-center py-4 rounded-md">
+        <div className="grid grid-cols-3 grid-rows-3 gap-4 p-3 lg:grid-rows-2 lg:grid-cols-4">
+  <div className="bg-[#58555491] duration-300 ease-out  shadow-md hover:-translate-y-1  text-white text-center py-4 rounded-md">
     <SiTypescript className='mx-auto text-3xl text-[#E9E6D5]'/>
     <br />
     <p>Typescript</p>
   </div>
-  <div class="bg-[#58555491] text-white text-center py-4 rounded-md">
+  <div className="bg-[#58555491] duration-300 ease-out  shadow-md hover:-translate-y-1  text-white text-center py-4 rounded-md">
   <SiJavascript className='mx-auto text-3xl text-[#E9E6D5]'/>
   <br />
     <p>Javascript</p>
   </div>
-  <div class="bg-[#58555491] text-white text-center py-4 rounded-md">
+  <div className="bg-[#58555491] duration-300 ease-out  shadow-md hover:-translate-y-1  text-white text-center py-4 rounded-md">
     <SiNextdotjs className='mx-auto text-3xl text-[#E9E6D5]'/>
     <br />
     <p>Next Js</p>
   </div>
-  <div class="bg-[#58555491] text-white text-center py-4 rounded-md">
+  <div className="bg-[#58555491] duration-300 ease-out  shadow-md hover:-translate-y-1  text-white text-center py-4 rounded-md">
     <SiReact className='mx-auto text-3xl text-[#E9E6D5]'/>
     <br />
     <p>React Js</p>
   </div>
-  <div class="bg-[#58555491] text-white text-center py-4 rounded-md">
+  <div className="bg-[#58555491] duration-300 ease-out  shadow-md hover:-translate-y-1  text-white text-center py-4 rounded-md">
     <SiGit className='mx-auto text-3xl text-[#E9E6D5]'/>
     <br />
     <p>Git</p>
   </div>
-  <div class="bg-[#58555491] text-white text-center py-4 rounded-md">
+  <div className="bg-[#58555491] duration-300 ease-out  shadow-md hover:-translate-y-1  text-white text-center py-4 rounded-md">
     <SiDocker className='mx-auto text-3xl text-[#E9E6D5]'/>
     <br />
     <p>Docker</p>
   </div>
   
-  <div class="bg-[#58555491] text-white text-center py-4 rounded-md">
+  <div className="bg-[#58555491] duration-300 ease-out  shadow-md hover:-translate-y-1  text-white text-center py-4 rounded-md">
     <SiFirebase className='mx-auto text-3xl text-[#E9E6D5]'/>
     <br />
     <p>Firebase</p>
   </div>
-  <div class="bg-[#58555491] text-white text-center py-4 rounded-md">
+  <div className="bg-[#58555491] duration-300 ease-out  shadow-md hover:-translate-y-1  text-white text-center py-4 rounded-md">
     <SiTailwindcss className='mx-auto text-3xl text-[#E9E6D5]'/>
     <br />
     <p>Tailwind css</p>
