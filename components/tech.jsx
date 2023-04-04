@@ -1,9 +1,8 @@
 import React from 'react'
 import {SiTypescript,SiFirebase,SiTailwindcss,SiJavascript,SiNextdotjs,SiGit,SiReact,SiDocker,SiPython} from 'react-icons/si'
-import {TbBrandGolang} from "react-icons/tb"
 const tech = () => {
   return (
-    <div className=''>
+    <div className='mt-[50px]'>
         <h1 className='text-4xl text-[#E9E6D5]'>Tech I use</h1>
         <div class="grid grid-cols-4 grid-rows-2 gap-4 p-3">
   <div class="bg-[#58555491] text-white text-center py-4 rounded-md">

@@ -6,7 +6,7 @@ import laptop from '../public/laptop.png'
 import vs from '../public/vs.png'
 
 
-const home = () => {
+const hero = () => {
   return (
     <div className=' mt-[100px]   '>
         <div className="flex justify-between">
@@ -23,4 +23,4 @@ const home = () => {
     </div>
   )
 }
-export default home
+export default hero
