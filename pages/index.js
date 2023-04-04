@@ -8,6 +8,7 @@ import {
   Bar,
   Tech,
   Projects,
+  Contact
 
 } from "../components";
 const inter = Inter({ subsets: ['latin'] })
@@ -29,6 +30,7 @@ export default function Home() {
         <About/>
         <Tech/>
         <Projects/>
+        <Contact/>
       </main>
     </div>
   )
