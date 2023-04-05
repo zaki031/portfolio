@@ -8,9 +8,9 @@ import  {FaInstagram,FaGithub,FaLinkedin,FaTwitter} from 'react-icons/fa'
 
 const hero = () => {
   return (
-    <div className=' mt-[100px]   '>
+    <div className=' mt-[100px] z-[1] bg-[#231F1D] '>
       
-      <svg className="absolute w-[300px] z-[1] right-[400px] top-[-40px] h-[400px] text-[#E9E6D5]" viewBox="0 0 152 152" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg className="absolute w-[300px] z-[1] right-[400px] top-[40px] h-[400px] text-[#E9E6D5]" viewBox="0 0 152 152" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M114.393 47.9941C116.231 47.9941 117.787 46.4385 117.857 44.5293C117.857 42.6908 116.302 41.1352 114.393 41.0645C112.554 41.0645 110.998 42.6201 110.928 44.5293C110.928 46.3678 112.483 47.9234 114.393 47.9941Z" fill="#9D9D9D"></path>
                       <path d="M101.098 46.8632C102.426 45.5354 102.426 43.3826 101.098 42.0548C99.7704 40.727 97.6177 40.727 96.2899 42.0548C94.9621 43.3826 94.9621 45.5354 96.2899 46.8631C97.6177 48.1909 99.7704 48.1909 101.098 46.8632Z" fill="#9D9D9D"></path>
                       <path d="M82.997 47.9941C84.8355 47.9941 86.3911 46.4385 86.4618 44.5293C86.4618 42.6908 84.9062 41.1352 82.997 41.0645C81.1585 41.0645 79.6029 42.6201 79.5322 44.5293C79.5322 46.3678 81.0878 47.9234 82.997 47.9941Z" fill="#9D9D9D"></path>
@@ -99,7 +99,7 @@ const hero = () => {
                 </div>
 
         </div>
-        <Image src={pic} alt='me' className='mx-auto lg:mx-0 rounded-md z-[2] lg:mt-0 mt-[50px]' width={300} height={(500)}></Image>
+        <Image src={pic} alt='me' className='mx-auto lg:mx-0 rounded-md z-[5] lg:mt-0 mt-[50px]' width={300} height={(500)}></Image>
 
         <Image src={code} alt='code' className=' hidden lg:block absolute right-2 rotate-[20deg]  z-[-11]' width={200} height={200}></Image>
         <Image src={laptop} alt='laptop' className='hidden lg:block absolute top-[600px] left-2 rotate-[20deg]  z-[-11]' width={200} height={200}></Image>

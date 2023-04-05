@@ -6,7 +6,7 @@ import {SiTypescript,SiFirebase,SiTailwindcss,SiJavascript,SiNextdotjs,SiGit,SiR
 
 const projects = () => {
   return (
-    <div className='mt-[50px]'>
+    <div className='mt-[50px] bg-[#231F1D] z-[1]'>
 
         <h1 className='text-4xl text-[#E9E6D5]'>Things I made</h1>
 
@@ -15,7 +15,7 @@ const projects = () => {
                 <div className="flex text-[#E9E6D5] text-3xl justify-between">
                 <h1 className='font-bold '>SkillUp </h1>
                 <div className="flex gap-5">
-                                    <a href="https://github.com/zaki031/skillUp"><SiGithub className='' /></a><a href="skill-up2.vercel.app"><BsBoxArrowUpRight /></a>
+                                    <a href="https://github.com/zaki031/skillUp"><SiGithub className='' /></a><a href="https://skill-up2.vercel.app"><BsBoxArrowUpRight /></a>
 
                 </div>
                 </div>
@@ -30,7 +30,7 @@ const projects = () => {
                 <div className="flex text-[#E9E6D5] text-3xl justify-between">
                 <h1 className='font-bold '>7sky's restaurant </h1>
                 <div className="flex gap-5">
-                                    <a href="https://github.com/zaki031/7sky-s-restaurent"><SiGithub className='' /></a><a href="7sky-s-restaurant.vercel.app"><BsBoxArrowUpRight /></a>
+                                    <a href="https://github.com/zaki031/7sky-s-restaurent"><SiGithub className='' /></a><a href="https://7sky-s-restaurant.vercel.app"><BsBoxArrowUpRight /></a>
 
                 </div>
                 </div>
@@ -47,7 +47,7 @@ const projects = () => {
                 <div className="flex text-[#E9E6D5] text-3xl justify-between">
                 <h1 className='font-bold '>Cryptito </h1>
                 <div className="flex gap-5">
-                                    <a href="https://github.com/zaki031/Cryptito"><SiGithub className='' /></a><a href="cryptito.vercel.app"><BsBoxArrowUpRight /></a>
+                                    <a href="https://github.com/zaki031/Cryptito"><SiGithub className='' /></a><a href="https://cryptito.vercel.app"><BsBoxArrowUpRight /></a>
 
                 </div>
                 </div>

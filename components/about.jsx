@@ -2,7 +2,7 @@ import React from 'react'
 import {AiOutlineArrowRight} from 'react-icons/ai'
 const about = () => {
   return (
-    <div className='mt-[70px]'>
+    <div className='mt-[70px] bg-[#231F1D]'>
 <h1 className='text-4xl text-[#E9E6D5]'>About me</h1>
   <p className='p-3 text-[#C4C4C4] text-xl'>
   I’m obsessed with making cool things  on the net,

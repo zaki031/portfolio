@@ -3,7 +3,6 @@ import { useRef } from 'react';
 
 import Image from 'next/image'
 import  {FaInstagram,FaGithub,FaLinkedin,FaTwitter} from 'react-icons/fa'
-import mail from '../public/mail.png'
 import emailjs from '@emailjs/browser';
 
 const contact = () => {
@@ -22,8 +21,7 @@ const contact = () => {
         e.target.reset()
     };
   return (
-    <div className='mt-[50px] py-5'>
-        <Image src={mail} alt="mail" className='relative hidden lg:block top-[180px] left-[310px] rotate-[25deg] z-[10]' width={100} height={300}></Image>
+    <div className='mt-[50px] bg-[#231F1D] py-5 z-[1]'>
         <div className="justify-between lg:flex">
             <div className="my-auto lg:p-4">
                         <h1 className='text-5xl text-[#E9E6D5] font-bold mb-[50px]'>Contact me</h1>

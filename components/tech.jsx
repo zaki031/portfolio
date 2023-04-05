@@ -2,7 +2,7 @@ import React from 'react'
 import {SiTypescript,SiFirebase,SiTailwindcss,SiJavascript,SiNextdotjs,SiGit,SiReact,SiDocker,SiPython} from 'react-icons/si'
 const tech = () => {
   return (
-    <div className='mt-[50px]'>
+    <div className='mt-[50px] bg-[#231F1D] z-[1]'>
         <h1 className='text-4xl text-[#E9E6D5]'>Tech I use</h1>
         <div className="grid grid-cols-3 grid-rows-3 gap-4 p-3 lg:grid-rows-2 lg:grid-cols-4">
   <div className="bg-[#58555491] duration-300 ease-out  shadow-md hover:-translate-y-1  text-white text-center py-4 rounded-md">

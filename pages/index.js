@@ -17,6 +17,7 @@ import { Inter } from 'next/font/google'
 
 export default function Home() {
   return (
+    
     <div className='overflow-x-hidden mx-[20px] lg:mx-[250px]'>
       <Head>
         <title>Zakaria</title>
