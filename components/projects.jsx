@@ -1,5 +1,6 @@
 import React from 'react'
 import {SiGithub} from "react-icons/si"
+import {AiOutlineArrowRight} from 'react-icons/ai'
 import {BsBoxArrowUpRight} from "react-icons/bs"
 import {SiTypescript,SiFirebase,SiTailwindcss,SiJavascript,SiNextdotjs,SiGit,SiReact,SiDocker,SiPython} from 'react-icons/si'
 
@@ -61,6 +62,8 @@ const projects = () => {
             </div>
 
         </div>
+        <h1 className='text-4xl duration-300 ease-out   hover:-translate-y-1  font-bold text-[#E9E6D5] flex justify-end'><a className='flex gap-3' href="/projects">More projects <AiOutlineArrowRight/></a> </h1>
+
     </div>
   )
 }

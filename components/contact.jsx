@@ -1,8 +1,26 @@
 import React from 'react'
+import { useRef } from 'react';
+
 import Image from 'next/image'
 import  {FaInstagram,FaGithub,FaLinkedin,FaTwitter} from 'react-icons/fa'
 import mail from '../public/mail.png'
+import emailjs from '@emailjs/browser';
+
 const contact = () => {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_22iprxm', 'template_d5zpeof', form.current, 'FF57SXaLLS0bpfMdi')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset()
+    };
   return (
     <div className='mt-[50px] py-5'>
         <Image src={mail} alt="mail" className='relative hidden lg:block top-[180px] left-[310px] rotate-[25deg] z-[10]' width={100} height={300}></Image>
@@ -26,11 +44,11 @@ const contact = () => {
                 </div>
                 
             </div>
-            <form action="" className='text-center'>
-                <input type="text" className='bg-transparent border-2 text-[#E9E6D5] rounded-md lg:w-[400px] w-[300px] border-[#E9E6D5] p-3' placeholder='Your Name' /><br />
-                <input type="email" className='bg-transparent border-2 text-[#E9E6D5] rounded-md lg:w-[400px] w-[300px] border-[#E9E6D5] mt-[20px] p-3' placeholder='Your Email' /><br />
-                <textarea name="" className='bg-transparent border-2 text-[#E9E6D5] rounded-md lg:w-[400px] w-[300px] border-[#E9E6D5] p-3 mt-[20px]' id="" cols="35" rows="10" placeholder="How can i help you ?" required></textarea><br />
-                <button type='submit' className='bg-[#E9E6D5] p-2 lg:w-[400px] w-[300px] px-4 rounded-md '>Send!</button>
+            <form ref={form} onSubmit={sendEmail} className='text-center'>
+                <input type="text" className='bg-transparent border-2 text-[#E9E6D5] rounded-md lg:w-[400px] w-[300px] border-[#E9E6D5] p-3' name="from_name" placeholder='Your Name' /><br />
+                <input type="email" className='bg-transparent border-2 text-[#E9E6D5] rounded-md lg:w-[400px] w-[300px] border-[#E9E6D5] mt-[20px] p-3' placeholder='Your Email' name="from_email" /><br />
+                <textarea  className='bg-transparent border-2 text-[#E9E6D5] rounded-md lg:w-[400px] w-[300px] border-[#E9E6D5] p-3 mt-[20px]' id="" cols="35" rows="10" name="message" placeholder="How can i help you ?" required></textarea><br />
+                <button type='submit' name="send" className='bg-[#E9E6D5] p-2 lg:w-[400px] w-[300px] px-4 rounded-md '>Send!</button>
             </form>
         </div>
     </div>
