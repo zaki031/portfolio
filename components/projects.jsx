@@ -26,23 +26,7 @@ const projects = () => {
                     <div className="bg-[#E9E6D5] px-2 rounded-md ">Next Js</div>
                 </div>
             </div>
-            <div className="bg-[#58555491]  duration-300 ease-out  shadow-md hover:-translate-y-1 p-4 rounded-md">
-                <div className="flex text-[#E9E6D5] text-3xl justify-between">
-                <h1 className='font-bold '>7sky's restaurant </h1>
-                <div className="flex gap-5">
-                                    <a href="https://github.com/zaki031/7sky-s-restaurent"><SiGithub className='' /></a><a href="https://7sky-s-restaurant.vercel.app"><BsBoxArrowUpRight /></a>
-
-                </div>
-                </div>
-                <p className='text-[#C4C4C4] text-xl p-3'>7sky's is a restaurent situated in Oran,Algeria which offers a various menu  pizzas, burgers, sandwichs , plats</p>
-                <div className="flex gap-3 techs ">
-                    <div className="bg-[#E9E6D5]  px-2 rounded-md ">JavaScript</div>
-                    <div className="bg-[#E9E6D5] px-2 rounded-md">Tailwind css</div>
-                    <div className="bg-[#E9E6D5] px-2 rounded-md ">Next Js</div>
-                    <div className="bg-[#E9E6D5] px-2 rounded-md ">Sanity</div>
-
-                </div>
-            </div>
+            
             <div className="bg-[#58555491]  duration-300 ease-out  shadow-md hover:-translate-y-1  p-4 rounded-md">
                 <div className="flex text-[#E9E6D5] text-3xl justify-between">
                 <h1 className='font-bold '>Cryptito </h1>
@@ -60,7 +44,23 @@ const projects = () => {
 
                 </div>
             </div>
+<div className="bg-[#58555491]  duration-300 ease-out  shadow-md hover:-translate-y-1 p-4 rounded-md">
+                <div className="flex text-[#E9E6D5] text-3xl justify-between">
+                <h1 className='font-bold '>7sky's restaurant </h1>
+                <div className="flex gap-5">
+                                    <a href="https://github.com/zaki031/7sky-s-restaurent"><SiGithub className='' /></a><a href="https://7sky-s-restaurant.vercel.app"><BsBoxArrowUpRight /></a>
 
+                </div>
+                </div>
+                <p className='text-[#C4C4C4] text-xl p-3'>7sky's is a restaurent situated in Oran,Algeria which offers a various menu  pizzas, burgers, sandwichs , plats</p>
+                <div className="flex gap-3 techs ">
+                    <div className="bg-[#E9E6D5]  px-2 rounded-md ">JavaScript</div>
+                    <div className="bg-[#E9E6D5] px-2 rounded-md">Tailwind css</div>
+                    <div className="bg-[#E9E6D5] px-2 rounded-md ">Next Js</div>
+                    <div className="bg-[#E9E6D5] px-2 rounded-md ">Sanity</div>
+
+                </div>
+            </div>
         </div>
         <h1 className='text-4xl duration-300 ease-out   hover:-translate-y-1  font-bold text-[#E9E6D5] flex justify-end'><a className='flex gap-3' href="/projects">More projects <AiOutlineArrowRight/></a> </h1>
 

@@ -47,7 +47,7 @@ const contact = () => {
                 <input type="text" className='bg-transparent border-2 text-[#E9E6D5] rounded-md lg:w-[400px] w-[300px] border-[#E9E6D5] p-3' name="from_name" placeholder='Your Name' /><br />
                 <input type="email" className='bg-transparent border-2 text-[#E9E6D5] rounded-md lg:w-[400px] w-[300px] border-[#E9E6D5] mt-[20px] p-3' placeholder='Your Email' name="from_email" /><br />
                 <textarea  className='bg-transparent border-2 text-[#E9E6D5] rounded-md lg:w-[400px] w-[300px] border-[#E9E6D5] p-3 mt-[20px]' id="" cols="35" rows="10" name="message" placeholder="How can i help you ?" required></textarea><br />
-                <button type='submit' name="send" className='bg-[#E9E6D5] p-2 lg:w-[400px] w-[300px] px-4 rounded-md '>Send!</button>
+                <button type='submit' name="send" className='bg-[#E9E6D5] p-2 lg:w-[400px] w-[300px] text-black px-4 rounded-md '>Send!</button>
             </form>
         </div>
     </div>
