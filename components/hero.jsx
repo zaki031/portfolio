@@ -92,10 +92,10 @@ const hero = () => {
             <h3 className='relative left-3'>Hi I'm</h3>
             <h1 className='font-bold lg:text-8xl text-5xl z-[2]'>Hamoudi <br /> mohammed <br />Zakaria</h1>
 <div className="flex justify-end gap-5 ">
-<a href="https://www.linkedin.com/in/zakaria-hamoudi-270306243/"><FaLinkedin className='text-[#E9E6D5] text-2xl'/></a>
-                    <a href="https://github.com/zaki031"><FaGithub className='text-[#E9E6D5] text-2xl'/></a>
-                    <a href="https://twitter.com/hamoudi_zaki31"><FaTwitter className='text-[#E9E6D5] text-2xl'/></a>
-                    <a href="https://www.instagram.com/zaki.owo1/"><FaInstagram className='text-[#E9E6D5] text-2xl'/></a>
+<a href="https://www.linkedin.com/in/zakaria-hamoudi-270306243/"><FaLinkedin className='text-[#E9E6D5] hover:scale-[1.10] duration-300 text-2xl'/></a>
+                    <a href="https://github.com/zaki031"><FaGithub className='text-[#E9E6D5] text-2xl hover:scale-[1.10] duration-300 '/></a>
+                    <a href="https://twitter.com/hamoudi_zaki31"><FaTwitter className='text-[#E9E6D5] text-2xl hover:scale-[1.10] duration-300 '/></a>
+                    <a href="https://www.instagram.com/zaki.owo1/"><FaInstagram className='text-[#E9E6D5] text-2xl hover:scale-[1.10] duration-300 '/></a>
                 </div>
 
         </div>
