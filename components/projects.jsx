@@ -64,7 +64,7 @@ const projects = () => {
                 </div>
             </div>
             
-            {isHidden && <div className="grid grid-cols-1 gap-4 grid-cols-rows-3">           <div id='hh' className="bg-[#58555491]  duration-300 ease-out  shadow-md hover:-translate-y-1 p-4 rounded-md">
+            {/* {isHidden && <div className="grid grid-cols-1 gap-4 grid-cols-rows-3">           <div id='hh' className="bg-[#58555491]  duration-300 ease-out  shadow-md hover:-translate-y-1 p-4 rounded-md">
                 <div className="flex text-[#E9E6D5] text-3xl justify-between">
                 <h1 className='font-bold '>7sky's restaurant </h1>
                 <div className="flex gap-5">
@@ -114,11 +114,11 @@ const projects = () => {
                     <div className="bg-[#E9E6D5]  px-2 rounded-md ">Sanity</div>
 
                 </div>
-            </div></div>}
+            </div></div>} */}
 
  
         </div>
-        {!isHidden ?         <button id='projects' onClick={()=>{setIsHidden(true)}} className='text-xl p-3 rounded-xl duration-300 ease-out    hover:-translate-y-1  font-bold bg-[#E9E6D5] flex mx-auto'>More projects</button> : null}
+        {/* {!isHidden ?         <button id='projects' onClick={()=>{setIsHidden(true)}} className='text-xl p-3 rounded-xl duration-300 ease-out    hover:-translate-y-1  font-bold bg-[#E9E6D5] flex mx-auto'>More projects</button> : null} */}
 
     </div>
   )

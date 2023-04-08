@@ -21,7 +21,7 @@ export default function Home() {
     <div className='overflow-x-hidden mx-[20px] lg:mx-[250px]'>
       <Head>
         <title>Zakaria</title>
-        <meta name="description" content="your local tech nerd" />
+        <meta name="description" content="Hi, I'm zakaria a frontend developer" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
