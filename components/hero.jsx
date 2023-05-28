@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import pic from '../public/pic.png'
+import pic from '../public/pic.jpg'
 import code from '../public/code.png'
 import laptop from '../public/laptop.png'
 import  {FaInstagram,FaGithub,FaLinkedin,FaTwitter} from 'react-icons/fa'
