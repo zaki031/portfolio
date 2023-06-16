@@ -25,7 +25,7 @@ const contact = () => {
     <div className='mt-[50px] bg-[#231F1D] py-5 z-[1]'>
         <div className="justify-between lg:flex">
             <div className="my-auto lg:p-4">
-                        <h1 className='text-5xl text-[#E9E6D5] font-bold mb-[50px]'>Contact me</h1>
+                        <h1 className='text-4xl text-center text-[#E9E6D5] font-bold mb-[50px]'>Contact me</h1>
 
 
                 <h1 className='text-3xl p-4 text-[#E9E6D5] text-center font-bold'>Let's build your desired website !</h1>

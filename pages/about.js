@@ -16,13 +16,12 @@ const about = () => {
 
 </div>
         </div>
-        <p className="text-xl lg:p-4">Wanna know more about me?</p>
-        <p className="text-2xl ">I'm zaki, a frontend developer based in Oran,Algeria and I really love coding! <br />
+        <p className="text-2xl p-3 ">I'm zaki, a frontend developer based in Oran,Algeria and I really love coding! <br />
             beside the technologies I use in the web develoment, I also use other languages like Python,Golang,C#, I might be a webdeveloper but u can find me messing with cybersecurity stuff xD
             you can check my <a href="" className="font-bold underline">github</a>  if you are interested in my other projects. <br />
             Next summer, I'm planning to dive into the cybersecurity world and I will try to get better with Python and Typescript. <br /><br />
             As you know, I'm a high school student and I'm on my final year. I planning to get into a computer science university or anything related with technology. <br /><br />
-            In my free time, I like to code haha or playing chess, reading tech articles/books and watching movies.<br /><br />
+            In my free time, I code,play chess,read tech articles/books.<br /><br />
             Feel free to contact me for collabs or asking me more question on my social media accounts
 
         </p>

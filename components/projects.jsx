@@ -10,7 +10,7 @@ const projects = () => {
   return (
     <div className='mt-[50px] bg-[#231F1D] z-[1]'>
 
-        <h1 className='text-4xl text-[#E9E6D5]'>Things I made</h1>
+        <h1 className='text-4xl font-bold text-[#E9E6D5]'>Things I made</h1>
 
         <div className="grid grid-cols-1 gap-4 p-3 grid-cols-rows-3">
             <div className="bg-[#58555491] duration-300 ease-out  shadow-md hover:-translate-y-1   p-4 rounded-md">

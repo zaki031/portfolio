@@ -1,8 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import pic from '../public/pic.jpg'
-import code from '../public/code.png'
-import laptop from '../public/laptop.png'
+
 import  {FaInstagram,FaGithub,FaLinkedin,FaTwitter} from 'react-icons/fa'
 
 
@@ -101,8 +100,7 @@ const hero = () => {
         </div>
         <Image src={pic} alt='me' className='mx-auto lg:mx-0 rounded-md z-[5] lg:mt-0 mt-[50px]' width={300} height={(500)}></Image>
 
-        <Image src={code} alt='code' className=' hidden lg:block absolute right-2 rotate-[20deg]  z-[-11]' width={200} height={200}></Image>
-        <Image src={laptop} alt='laptop' className='hidden lg:block absolute top-[600px] left-2 rotate-[20deg]  z-[-11]' width={200} height={200}></Image>
+       
 
         </div>
        
